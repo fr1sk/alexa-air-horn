@@ -1,0 +1,25 @@
+bankIntent where is the nearest {bank}
+bankIntent where the nearest {bank} is
+bankIntent nearest {bank}
+productsIntentColor how much money do I have on {color} account
+digitsIntent {digit} {digit} {digit} {digit}
+sendMoneyIntent send {money} euros to John
+sendMoneyIntent send {money} euros to Mike
+sendMoneyIntent send {money} euros to Maria
+sendMoneyIntent send {money} euros to Hacking Squad
+metersIntent tell me the distance in meters
+metersIntent tell me the distance
+metersIntent how far is that
+AMAZON.HelpIntent help me
+AMAZON.HelpIntent give me some tips
+AMAZON.HelpIntent give me some help
+AMAZON.HelpIntent how to use Euro Bank skill
+AMAZON.HelpIntent help me about Euro Bank skill
+AMAZON.HelpIntent give me some hints
+AMAZON.HelpIntent help
+productsIntent how much money do I have
+productsIntent whats my account balance
+productsIntent account balance
+gbpEIntent convert euro to British pounds
+rsdEIntent convert euro to Serbian dinars
+usdEIntent convert euro to American dollar

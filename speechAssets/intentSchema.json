@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "intent": "bankIntent",
+      "slots": [
+        {
+          "name": "bank",
+          "type": "LIST_OF_POS"
+        }
+      ]
+    },
+    {
+      "intent": "pinIntent",
+      "slots": [
+        {
+          "name": "UpdateText",
+          "type": "AMAZON.LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "productsIntentColor",
+      "slots": [
+        {
+          "name": "color",
+          "type": "LIST_OF_COLORS"
+        }
+      ]
+    },
+    {
+      "intent": "digitsIntent",
+      "slots": [
+        {
+          "name": "digit",
+          "type": "LIST_OF_DIGITS"
+        }
+      ]
+    },
+    {
+      "intent": "sendMoneyIntent",
+      "slots": [
+        {
+          "name": "money",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "metersIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "productsIntent"
+    },
+    {
+      "intent": "gbpEIntent"
+    },
+    {
+      "intent": "rsdEIntent"
+    },
+    {
+      "intent": "usdEIntent"
+    }
+  ]
+}

@@ -2,18 +2,19 @@
 
 
 function buildSpeechletResponse(title, output, repromptText, shouldEndSession) {
-    var x = Math.floor(Math.random() * 2) + 0;
+    var x = Math.floor(Math.random() * 3) +0;
     var imagesArray = ['https://s3.amazonaws.com/air-horn-sound/baku.jpg', 'https://s3.amazonaws.com/air-horn-sound/fufa.jpg', 'https://s3.amazonaws.com/air-horn-sound/home.jpg'];
-    var soundsArray = ['https://s3.amazonaws.com/air-horn-sound/airHornA.mp3', 'https://s3.amazonaws.com/air-horn-sound/airHornB.mp3', 'https://s3.amazonaws.com/air-horn-sound/airHornB.mp3']
+    var soundsArray = ['"https://s3.amazonaws.com/air-horn-sound/airHornA.mp3"', '"https://s3.amazonaws.com/air-horn-sound/airHornB.mp3"', '"https://s3.amazonaws.com/air-horn-sound/airHornB.mp3"']
+    var responseArray = ['B-B-B-BRRRRRR', 'BRRRRRRR', 'BRRRRRRRRRRRR'];
     return {
         outputSpeech: {
             type: 'SSML',
-            ssml: "<speak><audio src="+soundsArray[x]+"/><break time='1s'/></speak>",
+            ssml: `<speak><audio src=${soundsArray[x]}/><break time='1s'/></speak>`,
         },
         card: {
             type: 'Standard',
-            title: `B-B-B-BRRRR`,
-            content: `Air Horn`,
+            title: responseArray[x],
+            content: 'Air Horn',
             image: {
                 smallImageUrl: imagesArray[x],
                 largeImageUrl: imagesArray[x]
